@@ -41,6 +41,7 @@ except /iTerm/, /MacVim/ do
   map '<Ctrl-k>', '<Up>'
   map '<Ctrl-h>', '<Left>'
   map '<Ctrl-l>', '<Right>'
+  map '<Ctrl-0>', '<Cmd-Left>'
 
   map '<Ctrl-f>', '<PageUp>'
   map '<Ctrl-b>', '<PageDown>'
