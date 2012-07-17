@@ -46,10 +46,10 @@ except /iTerm/, /MacVim/ do
   map '<Ctrl-b>', '<PageDown>'
 
   map '<Cmd-p>', Commands.press_button_on_ui
-  map ';lc', Commands.left_click_element
-  map ';rc', Commands.right_click_element
-  map ';dc', Commands.double_click_element
-  map "<Ctrl-r>" { reload }
+  map '`lc', Commands.left_click_element
+  map '`rc', Commands.right_click_element
+  map '`dc', Commands.double_click_element
+  map ('<Ctrl-r>') { reload }
 end
 
 only /iTerm/ do
@@ -59,6 +59,12 @@ only /iTerm/ do
   map '<Cmd-t>', noop
 end
 
+map(";i") { activate('iTerm') }
+map(";c") { activate('Google Chrome') }
+map(";f") { activate('Firefox') }
+map(";s") { activate('Sparrow') }
+map(";k") { activate('Skype') }
+map(";l") { activate('Flowdock') }
 
 start_at_login
 # -----------------------------------------------------------
