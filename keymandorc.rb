@@ -34,7 +34,7 @@
 # Repeat last command via Cmd-.
 map "<Cmd-.>", RunLastCommand.instance
 
-map "<Cmd-Tab>", noop
+#map "<Cmd-Tab>", noop
 
 except /iTerm/, /MacVim/ do
   map '<Ctrl-j>', '<Down>'
