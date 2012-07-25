@@ -67,6 +67,7 @@ map(";f") { activate('Firefox') }
 map(";s") { activate('Sparrow') }
 map(";k") { activate('Skype') }
 map(";l") { activate('Flowdock') }
+map(";h") { activate('HipChat') }
 
 start_at_login
 # -----------------------------------------------------------
