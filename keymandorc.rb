@@ -47,8 +47,8 @@ except /iTerm/, /MacVim/ do
   map '<Ctrl-d>', '<PageDown>'
 
   map '<Cmd-p>', Commands.press_button_on_ui
-  map '`lc', Commands.left_click_element
-  map '`rc', Commands.right_click_element;
+  # map '`lc', Commands.left_click_element
+  # map '`rc', Commands.right_click_element;
   map ('<Ctrl-r>') { reload }
 
   map('<Ctrl-f>') { activate('iTerm') }
