@@ -37,10 +37,10 @@ map "<Cmd-.>", RunLastCommand.instance
 #map "<Cmd-Tab>", noop
 
 except /iTerm/, /MacVim/ do
-  map '<Ctrl-j>', '<Down>'
-  map '<Ctrl-k>', '<Up>'
-  map '<Ctrl-h>', '<Left>'
-  map '<Ctrl-l>', '<Right>'
+  # map '<Ctrl-j>', '<Down>'
+  # map '<Ctrl-k>', '<Up>'
+  # map '<Ctrl-h>', '<Left>'
+  # map '<Ctrl-l>', '<Right>'
   map '<Ctrl-0>', '<Cmd-Left>'
 
   map '<Ctrl-u>', '<PageUp>'
@@ -58,7 +58,6 @@ only /iTerm/ do
   map '<Cmd-w>', noop
   map '<Cmd-q>', noop
   map '<Cmd-r>', noop
-  map '<Cmd-t>', noop
 end
 
 map(";i") { activate('iTerm') }
