@@ -17,17 +17,17 @@
 # -----------------------------------------------------------
 
 # Command launcher window via Cmd-Space
-# map "<Cmd- >" do                                                                                                                                                                                                         
-#   trigger_item_with(Commands.items, RunRegisteredCommand.new)                                                                                                                                                             
-# end 
-# 
-# Register commands 
+# map "<Cmd- >" do
+#   trigger_item_with(Commands.items, RunRegisteredCommand.new)
+# end
+#
+# Register commands
 # -----------------------------------------------------------
-# command "Volume Up" do 
+# command "Volume Up" do
 #   `osascript -e 'set volume output volume (output volume of (get volume settings) + 7)'`
 # end
-# 
-# command "Volume Down" do 
+#
+# command "Volume Down" do
 #   `osascript -e 'set volume output volume (output volume of (get volume settings) - 7)'`
 # end
 
@@ -62,7 +62,7 @@ end
 
 map(";i") { activate('iTerm') }
 map(";c") { activate('Google Chrome') }
-map(";f") { activate('Firefox') }
+map(";f") { activate('FirefoxAurora') }
 map(";s") { activate('Sparrow') }
 map(";k") { activate('Skype') }
 map(";l") { activate('Flowdock') }
