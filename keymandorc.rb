@@ -67,8 +67,9 @@ map(";s") { activate('Sparrow') }
 map(";k") { activate('Skype') }
 map(";l") { activate('Flowdock') }
 map(";h") { activate('HipChat') }
+map(";q") { activate('Sqwiggle') }
 
-start_at_login
+#start_at_login
 # -----------------------------------------------------------
 # Visit http://keymando.com to see what else Keymando can do!
 # -----------------------------------------------------------
